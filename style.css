@@ -3,9 +3,14 @@ body {
     font-family: Arial, sans-serif;
 }
 
+img {
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 2px solid #252525;
+}
+
 h1, h2, h3, a {color: #0484d1;}
 p, li {color: #c0d0e3;}
-img {padding-left: 10px;}
 
 .outer_box {
     width: 800px;
