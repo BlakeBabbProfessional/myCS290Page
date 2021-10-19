@@ -34,3 +34,7 @@ p, li {color: #c0d0e3;}
     height: fit-content;
     padding-left: 20px;
 }
+
+@media (max-width: 840px) {
+    .outer_box, .inner_box {width: auto;}
+}
