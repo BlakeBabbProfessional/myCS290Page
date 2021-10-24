@@ -1,23 +1,11 @@
-var myFirstVariable = "'stringy!'"
-var mySecondVariable = 'also "stringy!"'
-var firstAndSecondVariables = myFirstVariable + ", " + mySecondVariable;
-
-console.log(myFirstVariable)
-console.log(mySecondVariable)
-console.log(firstAndSecondVariables)
-
-for (const firstAndSecondVariablesKey in firstAndSecondVariables) {
-    console.log(firstAndSecondVariables[firstAndSecondVariablesKey])
+var object = {
+    test: 1,
+    test2: 2,
+    test3: 3,
+    44: "test44",
+    divideByTwo: function (num) {
+        return num / 2
+    }
 }
 
-console.log(testFunc(4, 4, 4))
-
-function testFunc(a, b, c) {
-    return a + b + c
-}
-
-let i = 0;
-while (i < 704) {
-    i++
-    console.log("whileing!")
-}
+console.log(object.divideByTwo(object.test3))

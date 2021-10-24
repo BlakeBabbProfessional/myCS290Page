@@ -17,8 +17,9 @@ p, li {color: #c0d0e3;}
 
 .code {
     font-family: monospace, sans-serif;
-    background-color: #252525;
-    color: white;
+    background-color: #202020;
+    color: whitesmoke;
+    border-radius: 2px;
 }
 
 .outer_box {
